@@ -29,7 +29,7 @@ http://www.w3.org/2001/XMLSchema-instance">
     <description>Opinionated micro-service kernel.</description>
 
     <properties>
-    
+
         <!-- for integration test BEGIN -->
         <wasabi.cassandra.migration.resource.path>com/intuit/wasabi/repository/impl/cassandra/migration</wasabi.cassandra.migration.resource.path>
         <cassandra.migration.version>0.11</cassandra.migration.version>
@@ -42,7 +42,7 @@ http://www.w3.org/2001/XMLSchema-instance">
         <application.user.email>admin@example.com</application.user.email>
         <application.user.lastname>Admin</application.user.lastname>
         <!-- for integration test END -->
-            
+
         <default.time.zone>UTC</default.time.zone>
         <default.time.format>yyyy-MM-dd HH:mm:ss</default.time.format>
         <access.control.max.age.delta.seconds>86400</access.control.max.age.delta.seconds>
@@ -71,8 +71,8 @@ http://www.w3.org/2001/XMLSchema-instance">
         <mysql.host>localhost</mysql.host>
         <mysql.port>3306</mysql.port>
         <mysql.dbName>wasabi</mysql.dbName>
-        <mysql.username>readwrite</mysql.username>
-        <mysql.password>readwrite</mysql.password>
+        <mysql.username>root</mysql.username>
+        <mysql.password>root1213</mysql.password>
         <mysql.numPartitions>1</mysql.numPartitions>
         <mysql.minConnections>10</mysql.minConnections>
         <mysql.maxConnections>30</mysql.maxConnections>
@@ -249,7 +249,6 @@ http://www.w3.org/2001/XMLSchema-instance">
         <module>modules/export</module>
         <module>modules/feedback</module>
         <module>modules/feedback-objects</module>
-        <module>modules/functional-test</module>
         <module>modules/main</module>
         <module>modules/swagger-ui</module>
         <module>modules/user-directory</module>
